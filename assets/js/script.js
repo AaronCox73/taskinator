@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var task = [];
 
 var taskIdCounter = 0;
@@ -253,3 +254,17 @@ var tasks = [
         status: "to do"
     }
 ];
+=======
+
+var buttonEl = document.querySelector("#save-task");
+var tasksToDoEl = document.querySelector("#tasks-to-do");
+
+var createTaskHandler = function () {
+    var listItemEl = document.createElement("li");
+    listItemEl.className = "task-item";
+    listItemEl.textContent = "This is a new task.";
+    tasksToDoEl.appendChild(listItemEl);
+};
+
+buttonEl.addEventListener("click", createTaskHandler);
+>>>>>>> 26765cb649d7c3219b15e37034c0fe6b73da39e4

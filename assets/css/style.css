@@ -180,7 +180,11 @@ footer {
   -webkit-appearance: none;
   appearance: none;
   background-color: #fff;
+<<<<<<< HEAD
   background-image: url("../css/images/select-arrow.svg");
+=======
+  background-image: url("../images/select-arrow.svg");
+>>>>>>> 26765cb649d7c3219b15e37034c0fe6b73da39e4
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
